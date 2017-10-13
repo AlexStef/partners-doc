@@ -6,6 +6,7 @@ description: Documentation for the on-demand design Creads Partners API
 url: https://www.creads-partners.com
 google_analytics_key:
 permalink: pretty
+root: /_site
 
 collections:
   documentation:
