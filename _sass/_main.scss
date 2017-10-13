@@ -1,3 +1,5 @@
+---
+---
 html, body {
 	padding: 0;
 	margin: 0;
@@ -463,7 +465,7 @@ header {
 	}
 
 	.open-nav {
-		background-image: url(/images/menu.svg);
+		background-image: url({{ site.baseurl }}/images/menu.svg);
 		background-color: transparent;
 		background-repeat: no-repeat;
 		background-size: 100%;
