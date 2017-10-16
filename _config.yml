@@ -9,12 +9,23 @@ permalink: pretty
 baseurl: '/partners-doc'
 
 collections:
-  documentation:
-    title: Documentation
+  overview:
+    title: Overview
+    alphabetical: false
     position: 1
-  api:
-    title: APIs
+  oauth2:
+    title: OAuth2
+    alphabetical: false
     position: 2
+  resources:
+    title: Ressources
+    alphabetical: false
+    position: 3
+  api:
+    title: API
+    alphabetical: true
+    position: 4
+
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
